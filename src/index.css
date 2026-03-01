@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import 'leaflet/dist/leaflet.css';
+
+/* Custom dark map override for Leaflet */
+.leaflet-container {
+  background: #0d1117;
+}
+
+/* Hide Leaflet attribution for the "Command" look (optional, but cleaner for this demo) */
+.leaflet-control-attribution {
+  display: none !important;
+}
